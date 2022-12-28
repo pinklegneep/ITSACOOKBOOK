@@ -28,7 +28,6 @@ target.write(f"""<?xml version='1.0' encoding='utf-8'?>
                 <th align="center">Total Time</th>
             </tr>
             <tr>
-            <tr>
                 <td align="center">{preptime} mins</td>
                 <td align="center">{cooktime} mins</td>
                 <td align="center">{totaltime} mins</td>
