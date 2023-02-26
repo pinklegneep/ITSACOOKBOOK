@@ -68,7 +68,18 @@ while(True):
 target.write("""
             </ol>
         </hr>
+""")
 
+print("Link if u got it ")
+sourcelink = input("> ")
+if (sourcelink != ".") :
+    target.write(f"""
+        <hr>From: <a href="{sourcelink}">{sourcelink}</a>
+        </hr>
+    """)
+    
+
+target.write("""
     </body>
 </html>
 """)
